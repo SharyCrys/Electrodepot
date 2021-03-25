@@ -1,0 +1,3795 @@
+@media all and (min-width:768px) {
+
+	/*  Background Home LG  */
+	body:not(.page-layout-checkout):not(.sales-order-printreceipt):not(.facilypay-payment-redirect):not(.cms-no-route) {
+		background: url('/pub/media/wysiwyg/site/body-background.jpg') 49.7% 0 no-repeat !important;
+	}
+
+	/*  Background Gaming  */
+	body:not(.page-layout-checkout):not(.sales-order-printreceipt):not(.facilypay-payment-redirect):not(.cms-no-route).category-gaming {
+		background: url('/pub/media/wysiwyg/site/background-gaming-2018.jpg') 49.7% 0 no-repeat !important;
+	}
+
+	/*  Background Sélection Foot  */
+	body:not(.page-layout-checkout):not(.sales-order-printreceipt):not(.facilypay-payment-redirect):not(.cms-no-route).category-coupe-du-monde-2018 {
+		background: url('/pub/media/wysiwyg/site/background_boutique-cdm.jpg') 49.7% 0 no-repeat !important;
+	}
+
+	/*  Background Saint Valentin  */
+	body.category-saint-valentin-2019:not(.page-layout-checkout):not(.sales-order-printreceipt):not(.facilypay-payment-redirect):not(.cms-no-route),
+	body.category-saint-valentin-gourmande:not(.page-layout-checkout):not(.sales-order-printreceipt):not(.facilypay-payment-redirect):not(.cms-no-route),
+	body.category-saint-valentin-tout-en-beaute:not(.page-layout-checkout):not(.sales-order-printreceipt):not(.facilypay-payment-redirect):not(.cms-no-route),
+	body.category-saint-valentin-connectee:not(.page-layout-checkout):not(.sales-order-printreceipt):not(.facilypay-payment-redirect):not(.cms-no-route) {
+		background: url('/pub/media/wysiwyg/site/background-saint-valentin-2019.jpg') 49.7% 0 no-repeat !important;
+	}
+}
+
+.login-container .block-new-customer {
+	background: #f3f3f3 url(/pub/media/wysiwyg/customer/background_new_customer-es.png) no-repeat top right !important;
+	background-size: 9em;
+}
+
+/*  GLOBAL  */
+
+.logo {
+	position: relative;
+}
+
+/*.logo::before {
+	content: '';
+	background: url('https://www.electrodepot.fr/media/wysiwyg/header/logo_ed_noel.gif') no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: 100%;
+}*/
+
+.text-smaller {
+	font-size: 80%;
+}
+
+.text-grey {
+	color: #666;
+}
+
+.nav-sections .section-item-content .navigation ul li.level0 a.level-top span .element-block-nav {
+	width: 100%;
+	line-height: 17px;
+	vertical-align: unset;
+}
+
+.cms-page-view .column.main {
+	padding: 20px;
+}
+
+.cms-page-view .column.main h1 {
+	font-family: 'Barlow', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 15px 0 25px 0;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+.spacer {
+	margin-bottom: 30px;
+}
+
+.cms-page-view .column.main .img-responsive,
+.catalog-category-view .page-main .img-responsive,
+.page-main .img-responsive {
+	width: 100%;
+	height: auto;
+}
+
+.cms-page-view .column.main .text-underline {
+	text-decoration: underline;
+}
+
+.cms-page-view .column.main .uppercase {
+	text-transform: uppercase;
+}
+
+.cms-page-view .column.main .helvetica {
+	font-family: Helvetica Neue, arial;
+	font-size: 1.25em;
+}
+
+.cms-page-view .column.main .strong {
+	font-weight: 600;
+}
+
+.cms-page-view .column.main .stronger {
+	font-weight: 800;
+}
+
+.cms-page-view .column.main .text-center,
+.cms-page-view .column.main .center,
+.text-center {
+	text-align: center;
+}
+
+.cms-page-view .column.main .bigger,
+.cms-page-view .column.main .tex-bigger {
+	font-size: 1.3em;
+}
+
+.cms-page-view .column.main .text-red {
+	color: #fd0002;
+}
+
+.cms-page-view #sous-titre,
+.cms-page-view .sous-titre {
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	clear: left;
+	font: 2em 'Barlow', sans-serif;
+}
+
+.cms-page-view .sous-titre2 {
+	color: #FAB420;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-top: 8px;
+	background-color: black;
+	clear: left;
+}
+
+.cms-page-view h2.subtitle-garantie-casse {
+	font-family: helvetica neue;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	background-color: #ffb700;
+	font-size: 23px;
+	padding: 8px 0;
+	font-weight: 600;
+}
+
+.cms-page-view .column.main h3 {
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	line-height: initial;
+}
+
+.cms-page-view .exergue {
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.cms-page-view .noFloat {
+	float: none;
+}
+
+.cms-page-view .separator {
+	border-right: 1px solid #999;
+}
+
+.cms-page-view .no-margin-top {
+	margin-top: 0 !important;
+}
+
+.cms-page-view .note-conseil:before {
+	content: '';
+	width: 0px !important;
+	height: 0px !important;
+	border-left: 10px solid #af8018;
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	transform: rotate(-135deg);
+}
+
+.cms-page-view .note-conseil {
+	background-color: #ffba00;
+	padding: 15px;
+	font-weight: bold;
+	position: relative;
+	margin: 0 0 15px 0;
+	clear: both;
+	display: inline-block;
+}
+
+.cms-page-view .note-conseil:after {
+	content: '';
+	width: 0px !important;
+	height: 0px !important;
+	border-left: 10px solid #FFF;
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	display: inline-block;
+	position: absolute;
+	bottom: -7px;
+	right: -2px;
+	transform: rotate(45deg);
+	background-color: #FFF;
+}
+
+.cms-page-view .column.main li {
+	list-style-type: disc;
+}
+
+.cms-page-view .column.main ul {
+	padding: 0 0 0 20px;
+}
+
+.cms-page-view .column.main .btn-default,
+.cms-no-route .btn-default {
+	background: linear-gradient(to bottom, #ffc104 0%, #ffb209 100%);
+	padding: 10px 20px;
+	text-decoration: none !important;
+	border-radius: 2px;
+	text-transform: uppercase;
+	font-family: 'Barlow', 'Din Cond Bold';
+	font-size: 1.2em;
+	margin: 10px 0;
+	display: inline-block;
+	transition: 0.25s all 0s;
+}
+
+.cms-page-view .column.main .btn-default:hover {
+	background: linear-gradient(to bottom, #ffb203 0%, #ffa507 100%);
+	transition: 0.25s all 0s;
+	box-shadow: 0 3px 6px #bbb;
+}
+
+.reassurance-element a {
+	text-decoration: none !important;
+}
+
+/* SOLDES 
+.page-contenu-storelocator::before {
+	background: url('https://www.electrodepot.fr/media/wysiwyg/site/landing-page/soldes/banner-soldes-ete-2018.jpg') no-repeat;
+	content: '';
+	width: 100%;
+	height: 218px;
+	display: inline-block;
+	background-size: 100%;
+}
+@media screen and (max-width: 767px) {
+	.page-contenu-storelocator::before {
+		height: 178px;
+	}
+}
+@media screen and (max-width: 990px) {
+	.page-contenu-storelocator::before {
+		height: 158px;
+	}
+}*/
+
+
+/*  Fix texte caractéristiques produit  */
+table.prodItem__additional-table {
+	font-family: 'barlow', arial;
+}
+
+
+/*  Masquer l'ajout panier sur la home  */
+.cms-home .addtocart.action.primary.ed {
+	display: none;
+}
+
+/*  Fix couleur ajout au panier  */
+/*.action.primary.addtocart.ed {
+	display: none;
+	background: #ffba00;
+	color: #000;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-transform: none;
+	font-family: 'Barlow',sans-serif;
+	min-width: 265px;
+}*/
+.action.primary {
+	background: #eeab00;
+	color: #FFF;
+	border-color: #eeab00;
+	border-radius: 0;
+}
+
+.action.primary:focus,
+.action.primary:active,
+.action.primary:hover,
+.addtocart-fixed__btn-yellow:hover {
+	background: #eeab00 !important;
+	transition: 0.5s all 0s;
+}
+
+
+
+/* Perso et correctifs Doofinder */
+.df-classic {
+	font-family: 'barlow', arial !important;
+}
+
+.df-classic .df-panel {
+	margin: 0 !important;
+}
+
+.df-panel+.df-panel {
+	border-top: 1px solid #e6e6e6;
+}
+
+.df-panel[data-collapse="false"] .df-panel__content {
+	margin: 0 0 12px 0;
+}
+
+.df-classic .df-panel__content {
+	font-family: 'barlow', arial;
+}
+
+.df-classic .df-term[data-selected],
+.df-classic .df-term[data-selected]:hover {
+	background-color: #f9b31d !important;
+	;
+	border-color: #f9b31d !important;
+	;
+	color: #000 !important;
+	;
+}
+
+.df-slider .noUi-horizontal {
+	height: 5px !important;
+	border: 0px !important;
+}
+
+.df-slider .noUi-connect {
+	background: #f9b31d !important;
+	;
+}
+
+.df-slider .noUi-origin {
+	margin: -2px 0 0 0 !important;
+	;
+}
+
+.df-classic .df-panel__title {
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 1.15em !important;
+	;
+	max-height: unset;
+	text-transform: uppercase;
+	margin: 0;
+	text-decoration: none;
+	color: #000 !important;
+	/*! background-position: right 16px center !important; */
+}
+
+.df-card__title {
+	font-family: 'barlow', arial;
+}
+
+.df-card__pricing {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+.df-sort-select label+select {
+	margin-left: .5rem !important;
+	border-color: #eee;
+	box-shadow: none !important;
+}
+
+
+/*  Fix Home page  */
+
+.pushproduct .pushedproduct--price .product-price {
+	color: #000 !important;
+	font-family: 'Barlow', arial;
+	font-weight: 600;
+}
+
+.product-item-paySeveral {
+	background: #F6F6F6;
+	border-color: #d8d8d8;
+	color: #010101 !important;
+}
+
+.pushproduct .pushedproduct--price .oldprice {
+	font-family: 'Barlow', arial;
+}
+
+.nav-sections .section-item-content .navigation ul.column-categ.block-ems .product-menu .price {
+	color: #000 !important;
+	font-family: 'Barlow', arial !important;
+	font-weight: 600 !important;
+}
+
+
+/*  Fix page List  */
+
+.page-products .page-main .product-item {
+	font-family: 'barlow', arial;
+}
+
+.page-products .page-main .product-item-info .product-item-name {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.5em;
+}
+
+.page-products .page-main .product-item-info .product-item-price .price-box .price {
+	color: #000 !important;
+	font-weight: 700;
+	font-family: 'Barlow', sans-serif;
+}
+
+.product-item-odr {
+	background: none !important;
+	color: #de0403;
+	padding: 0 !important;
+	border: none !important;
+}
+
+.oldprice::before {
+	transform: rotate(0deg) !important;
+}
+
+.product-item-info .product-description .addtocart.action.primary {
+	color: #fff;
+	background: #000;
+	border-color: #000;
+	border-radius: 0;
+}
+
+.product-item-info:hover .product-description .addtocart.action.primary {
+	color: #fff;
+	background: #000;
+	border-color: #000;
+	border-radius: 0;
+}
+
+/*  Fix typo dans le panier  */
+.table-cart.body .col.price,
+.table-cart.body .col.subtotal {
+	font-family: "barlow", arial;
+	font-weight: 600;
+}
+
+.cart-totals-container .cell-total.amount {
+	font-family: "barlow", arial;
+	font-weight: 600;
+}
+
+.cart-totals-container .totals.grand .amount strong {
+	font-weight: 600;
+}
+
+.table-cart .https: //urldefense.proofpoint.com/v2/url?u=http-3A__col.info&d=DwIFaQ&c=yQHSJCAKP3nEFlehLGd8PY5PTgIMQtDp09kNa-6uNnE&r=G8hDfJlLajGolalR2PjJEJzkVB2sKFNnsLvnm9eHOfLOg6XSfjGN82mTXLK2CuOp&m=Z7aZovzK9OfXpTB7OKkF0X6Xk_3_C62hwJWCzYea9DI&s=ftwNlhycI60ZA8C4wKIsXvzDPxYlG7XgV6dfAbN9M0Q&e=  {
+font-family: 'Barlow',
+arial !important;
+font-size: 1.2em !important;
+}
+
+
+/*  Fix autocompletion sur mobile  */
+.ulAcp {
+	float: left;
+	max-width: calc(100% - 30px) !important;
+}
+
+
+/*  Fix Masque code promotionnel  */
+#block-discount {
+	display: none;
+}
+
+/*  Fix Z-index  */
+@media screen and (max-width: 767px) {
+	.nav-open .nav-sections {
+		z-index: 100000 !important;
+	}
+
+	.nav-open .nav-toggle::after {
+		z-index: 100000 !important;
+	}
+}
+
+/*  Fix video youtube qui apparait au dessus du menu  */
+.product-video iframe {
+	z-index: 10 !important;
+}
+
+/*  Fix pour pushproduct dans le menu  */
+.nav-sections .section-item-content .navigation ul.column-categ.block-ems .product-menu>h2 {
+	margin: .4em .8em .4em 1em !important;
+}
+
+.column-categ.block-ems .pushedproduct {
+	font-family: arial !important;
+}
+
+.nav-sections .section-item-content .navigation ul.column-categ.block-ems .product-menu .product-item-paySeveral {
+	margin-left: 0 !important;
+}
+
+.nav-sections .section-item-content .navigation ul.column-categ.block-ems .product-menu .product-item-flap {
+	padding: .075em .3em .3em .25em !important;
+}
+
+/*  Fix pour réassurance sous-menu  */
+.header-reassurance .reassurance-element:nth-child(2n) {
+	font-size: 1.29em !important;
+	background-position: center 1.5em;
+}
+
+/*  Fix icone player sur vignette video fiche produit  */
+.mt-thumb-switcher.video-selector::before {
+	content: '';
+	background: url('https://www.electrodepot.fr/static/version1512543136/frontend/Pictime/electrodepot/fr_FR/images/icone_video_small.png') no-repeat center center;
+	width: 47px;
+	height: 47px;
+	display: inline-block;
+	background-size: 65%;
+	margin: 0 -47px 0 0;
+	z-index: 10;
+	position: relative;
+	filter: grayscale(100%);
+	opacity: 0.75;
+}
+
+/*  Fix produits associés fiche produit  */
+.catalog-product-view .product.items>#relatedproducts.item.content {
+	padding: 0;
+}
+
+.products.wrapper.grid.products-grid.products-related {
+	margin: 0;
+}
+
+.catalog-product-view .product.items.relatedproducts .products-grid .product-items {
+	margin: 0;
+}
+
+/* Fix Dimelo*/
+.dimelo_chat_item_container.dimelo_chat_button_container.dimelo_chat_mode_online .button-title {
+	font-family: barlow, sans-serif !important;
+	font-size: 17px !important;
+	font-weight: bold !important;
+}
+
+.button-action.dimelo_chat_item_action.button_action_large {
+	font-family: barlow, sans serif !important;
+	font-weight: 900 !important;
+	font-size: 12px !important;
+}
+
+/* Fix Bazaar Voice */
+#reviews {
+	margin-top: 50px;
+}
+
+#reviews .bv-content-item.bv-content-top-review.bv-content-review {
+	border: 1px solid #ccc !important;
+	margin: 0 10px 15px !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-author-profile {
+	background: #FAFAFA !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-content-item .bv-content-secondary-ratings dd {
+	padding: 0 0 10px 0 !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-content-actions-container {
+	padding: 0 10px !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-content-item-author-profile-offset-on {
+	margin: 0 !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-content-details-container .bv-secondary-ratings {
+	padding: 0 10px !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-content-details-container {
+	margin: 0 !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-content-item .bv-content-secondary-ratings dt {
+	margin: 0 0 0.15em 0 !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-core-container-217 .bv-secondary-content-list .bv-content-item {
+	background: #f6f6f8 !important;
+}
+
+#reviews .bv-cv2-cleanslate .bv-core-container-217 .bv-content-pagination {
+	background: #F8F8F8 !important;
+}
+
+
+/*  Fix tableau comparateur 1 ligne grisée sur 2  */
+.comparison-table-attributes tr:nth-child(4n+2) {
+	background-color: #eee;
+}
+
+.https: //urldefense.proofpoint.com/v2/url?u=http-3A__cell.product.info&d=DwIFaQ&c=yQHSJCAKP3nEFlehLGd8PY5PTgIMQtDp09kNa-6uNnE&r=G8hDfJlLajGolalR2PjJEJzkVB2sKFNnsLvnm9eHOfLOg6XSfjGN82mTXLK2CuOp&m=Z7aZovzK9OfXpTB7OKkF0X6Xk_3_C62hwJWCzYea9DI&s=QNgKUWyBndcyowBwVLy5o0k5TcdTPShAR-nGVIxx_kI&e= ::before {
+content: "";
+background-color: #eee;
+height: 100%;
+width: 1px;
+position: absolute;
+right: -1px;
+top: 1px;
+}
+
+/*  Fix pour les images Antidot  */
+.ui-autocomplete .Antidot-LiItem .Antidot-picture {
+	max-height: 55px;
+}
+
+/*  Fix pour les liens product-list barrés  */
+.page-products .page-main .product-item-info .product-item-name {
+	text-underline-position: under !important;
+}
+
+/*  Fix pour décalage du bouton Appliquer (code promo) dans le tunnel sur Safari  */
+.block__discount .actions-toolbar {
+	margin-left: 0 !important;
+}
+
+/*  Fix pour titre redevance collé dans le tunnel en mobile */
+@media screen and (max-width: 749px) {
+	#checkoutSteps #redevance {
+		padding: 0.85em 0 0 0;
+	}
+}
+
+/*  Fix pour "produit suivant" sur fiche produit */
+.product__link-share {
+	width: 40%;
+}
+
+/*  category  */
+/*.catalog-category-view .page-main .category-view {
+	width: 100%;
+}*/
+
+/*  menu le moins cher  */
+.nav-sections .section-item-content .navigation ul li.level0.nav-specialClass--yellow {
+	color: #000;
+	background: #C5DA37;
+}
+
+/* Styles pour flap tryptique de la home */
+.product-item-flap {
+	font-family: 'Barlow', sans-serif !important;
+	font-weight: 600 !important;
+	border-radius: 4px !important;
+	padding: 3px 8px !important;
+	letter-spacing: 0.03em;
+}
+
+.product-item-oldprice {
+	font-family: 'Barlow', sans-serif !important;
+	font-weight: 700;
+	font-size: 14px !important;
+	padding: 0.2em 0.4em !important;
+	border-radius: 0.25em !important;
+}
+
+/* Flap Envio Gratuito */
+.product-item-sticker.envio_gratuito,
+.product-item-sticker.sticker-envio_gratuito,
+.push__flap.envio_gratuito,
+.product-item-sticker.envío_gratuito,
+.product-item-sticker.sticker-envío_gratuito,
+.push__flap.envío_gratuito {
+	color: #000;
+	background: #fff200;
+}
+
+/*arrivage*/
+/*.product-item-flap.sticker-arrivage,.product-item-flap.sticker.arrivage {
+	color: #FFBA00;
+	background: #000000 !important;
+}*/
+/*Moins cher*/
+/*.pushproduct .sticker-moins-cher, .product-item-flap.sticker-moins-cher, .product-item-flap.sticker.moins-cher {
+	color: #000;
+	background: #C5DA37 !important;
+} */
+/*by electro depot*/
+/*.pushproduct .sticker-by-electro-depot, .product-item-flap.sticker-by_electrodepot, .product-item-flap.sticker.by_electrodepot {
+	color: #000;
+	background: #FFBA00;
+}
+.product-item-flap.sticker.by_electrodepot::after, .nav-sections .section-item-content .navigation ul.column-categ.block-ems .product-menu .product-item-flap.sticker-by_electrodepot div:after {
+	content: url('https://www.electrodepot.fr/media/wysiwyg/site/flap/picto-by-electrodepot.svg');
+	height: 20px;
+	display: block;
+	width: 20px;
+	margin: 2px 0 0 5px;
+	float: right;
+}
+.page-products .product-item-flap.sticker.by_electrodepot::after, .nav-sections .section-item-content .navigation ul.column-categ.block-ems .product-menu .product-item-flap.sticker-by_electrodepot div::after {
+	width: 15px !important;
+	height: 15px !important;
+}*/
+/*Nouveauté*/
+.product-item-flap.sticker-nouveau,
+.product-item-flap.sticker-nouveau,
+.product-item-flap.sticker.nouveau {
+	color: #fff;
+	background: #3e9fc5 !important;
+}
+
+/*Black Friday*/
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday {
+	background: #FFBA00 !important;
+	position: relative;
+	overflow: hidden;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday a {
+	font-weight: 800;
+	font-style: italic;
+	font-size: 1.25em;
+	color: #000;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday:hover,
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday a:hover {
+	color: #000 !important;
+}
+
+.level0.nav-8.last.level-top.nav-specialClass--black-friday::before,
+.level0.nav-8.last.level-top.nav-specialClass--black-friday::after {
+	content: '';
+	width: 200%;
+	display: inline-block;
+	position: absolute;
+	height: 50px;
+	background: #000;
+	transform: rotate(-4deg);
+	transform-origin: center 0;
+	transition: 0.5s all 0.25s;
+}
+
+.level0.nav-8.last.level-top.nav-specialClass--black-friday::before {
+	top: -100px;
+	left: -15px;
+}
+
+.level0.nav-8.last.level-top.nav-specialClass--black-friday:hover::before {
+	top: -50px;
+	left: -15px;
+	transition: 0.25s all 0s;
+}
+
+.level0.nav-8.last.level-top.nav-specialClass--black-friday::after {
+	bottom: -100px;
+	right: -15px;
+}
+
+.level0.nav-8.last.level-top.nav-specialClass--black-friday:hover::after {
+	bottom: -50px;
+	right: -15px;
+	transition: 0.25s all 0s;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday a span {
+	position: relative;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday a span:before {
+	content: "";
+	height: 2px;
+	width: 15px;
+	display: inline-block;
+	background-color: #000;
+	line-height: 8px;
+	top: 5px;
+	position: absolute;
+	left: -11px;
+	border-radius: 1px;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday a span:after {
+	content: "";
+	height: 2px;
+	width: 12px;
+	display: inline-block;
+	background-color: #000;
+	line-height: 8px;
+	position: absolute;
+	left: -7px;
+	top: 10px;
+	border-radius: 1px;
+}
+
+.black_friday,
+.sticker-black_friday {
+	color: #FFF;
+	background: #000 !important;
+	animation: clignote 5s infinite;
+	font-family: 'Barlow', sans-serif !important;
+	font-weight: 800 !important;
+	border-radius: 0px;
+	padding: 3px 8px;
+	font-size: 1.25em;
+	font-style: italic;
+	overflow: hidden;
+}
+
+.black_friday span,
+.sticker-black_friday span {
+	position: relative;
+	animation: deplacement 5s infinite;
+	top: -1px;
+}
+
+.black_friday span:before,
+.sticker-black_friday span:before {
+	content: "";
+	height: 1px;
+	width: 15px;
+	display: inline-block;
+	background-color: #FFF;
+	line-height: 8px;
+	animation: clignote1 5s infinite;
+	top: 6px;
+	position: absolute;
+	left: -12px;
+}
+
+.black_friday span:after,
+.sticker-black_friday span:after {
+	content: "";
+	height: 1px;
+	width: 10px;
+	display: inline-block;
+	background-color: #FFF;
+	line-height: 8px;
+	animation: clignote1 5s infinite;
+	position: absolute;
+	left: -9px;
+	top: 10px;
+}
+
+
+@-webkit-keyframes clignote {
+	0% {
+		color: #FFF;
+	}
+
+	40% {
+		color: #FFF;
+	}
+
+	50% {
+		color: #FFBA00;
+	}
+
+	60% {
+		color: #FFF;
+	}
+
+	100% {
+		color: #FFF;
+	}
+}
+
+@-webkit-keyframes clignote1 {
+	0% {
+		background-color: #FFF;
+	}
+
+	40% {
+		background-color: #FFF;
+	}
+
+	50% {
+		background-color: #FFBA00;
+	}
+
+	60% {
+		background-color: #FFF;
+	}
+
+	100% {
+		background-color: #FFF;
+	}
+}
+
+@-webkit-keyframes deplacement {
+	0% {
+		left: -250%;
+	}
+
+	10% {
+		left: 0;
+	}
+
+	50% {
+		left: 0;
+	}
+
+	90% {
+		left: 0;
+	}
+
+	100% {
+		left: 250%;
+	}
+}
+
+/*Cyber Monday*/
+.cyber_monday::before,
+.sticker-cyber_monday::before {
+	content: 'Cyber';
+	color: #ffd300;
+	font-size: 14px;
+	text-shadow: 0 0 5px #ffd300;
+	animation: clignote-cyber-monday 2s infinite;
+}
+
+.cyber_monday,
+.sticker-cyber_monday {
+	color: #FFF;
+	font-size: 0px !important;
+	background: #043162;
+	transition: 1s;
+	transition: rotateX(0deg);
+}
+
+.cyber_monday:hover,
+.sticker.cyber_monday:hover {
+	transform: rotateX(360deg);
+	transition: 1s;
+}
+
+.cyber_monday::after,
+.sticker-cyber_monday::after {
+	content: 'monday';
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 0 0 0.2em;
+}
+
+.pushproduct--lien.sticker-cyber_monday {
+	line-height: 1.667em;
+	color: #FFF;
+	font-size: 1.29em !important;
+}
+
+.pushproduct--lien.sticker-cyber_monday::before,
+.pushproduct--lien.sticker-cyber_monday::after {
+	content: none !important;
+}
+
+@-webkit-keyframes clignote-cyber-monday {
+	0% {
+		text-shadow: 0px 0px 10px #ffd300;
+		color: #ffd300;
+	}
+
+	50% {
+		text-shadow: 0px 0px 0px #ffd300;
+		color: #fce577;
+	}
+
+	100% {
+		text-shadow: 0px 0px 10px #ffd300;
+		color: #ffd300;
+	}
+}
+
+
+/* NOEL dans le menu */
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--noel {
+	background: url(https://www.electrodepot.fr/media/wysiwyg/site/landing-page/noel-2018/background-noel-2018.jpg) top center #084385 !important;
+	position: relative;
+	overflow: hidden;
+	background-size: 100% !important;
+	border: #084385;
+	border-left: 2px solid #fff;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--noel a {
+	font-weight: 800;
+	font-style: italic;
+	font-size: 1.8em;
+	color: #fff !important;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 10px #000;
+	position: relative;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--noel a span::before {
+	content: 'extra';
+	color: #FFBA00;
+	font-size: 0.5em;
+	position: absolute;
+	top: -20%;
+	left: -15%;
+	opacity: 0;
+	transition: 1s;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--noel a:hover span::before {
+	opacity: 1;
+	transition: 1s;
+}
+
+@media screen and (max-width: 767px) {
+	.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--noel a span::before {
+		top: -38%;
+		left: -10%;
+	}
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--noel a span {
+	position: relative;
+}
+
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--noel:hover,
+.page-wrapper .nav-sections .section-item-content .navigation .special-nav .nav-specialClass--black-friday a:hover {
+	color: #fff !important;
+}
+
+/* Mois du blanc dans le menu */
+.nav-sections .section-item-content .navigation ul li.level0.nav-8.last.level-top.nav-specialClass--mois-du-blanc {
+	background: url('https://www.electrodepot.fr/media/wysiwyg/site/landing-page/mois-du-blanc-2019/bg-menu-mois-du-blanc.jpg') !important;
+}
+
+.nav-specialClass--mois-du-blanc .level-top {
+	color: #10537c !important;
+	font-weight: bold !important;
+	font-size: 1.2em !important;
+	text-shadow: 0px 0px 10px #fff;
+}
+
+/* Fix Addtocart sur homepage */
+@media all and (min-width:1180px) {
+	.pushedproduct .addtocart {
+		position: absolute;
+		top: 205px;
+		width: 90% !important;
+		opacity: 0;
+		transition: 0.25s 0s all;
+	}
+
+	.pushedproduct:hover .addtocart {
+		opacity: 1;
+		transition: 0.25s 0.25s all;
+	}
+
+	.pushedproduct--price {
+		margin: 5px 0;
+	}
+}
+
+.pushproduct .pushedproduct--name h2 {
+	width: 100% !important;
+	font-weight: normal !important;
+	font-family: 'barlow', arial;
+	line-height: 1.3em;
+	margin: 0 0 0.4em 0;
+}
+
+.nav-sections .section-item-content .navigation ul.column-categ.block-ems .product-menu>.product-item-titre {
+	font-weight: normal !important;
+	font-family: 'barlow', arial;
+	line-height: 1.3em;
+	max-width: 90%;
+}
+
+/* Fix Addtocart sur product list */
+@media all and (min-width:1180px) {
+	.product-item-info .product-description .addtocart.action.primary {
+		border: 1px solid #717171;
+		background-color: #fff;
+		color: #717171;
+		transition: 0.25s all 0s;
+	}
+
+}
+
+/* Fix logos sur fiche produit */
+.marque__logo {
+	margin: 0;
+	z-index: 2;
+	position: relative;
+	text-align: right;
+}
+
+.marque__logo img {
+	max-height: 35px;
+}
+
+/* Fix liens "voir produits et voir dispo" pagelist produit */
+.page-products .page-main .product-item-info .product-item-link {
+	display: block;
+}
+
+/* FIX BTN Back to top et Dimelo*/
+.dimelo-chat-container .button-open-choices {
+	transform: scale(0.75);
+	transform-origin: bottom;
+	opacity: 0.75 !important;
+	transition: 0.75s opacity 0s;
+	margin: 0 0 -10px 0;
+}
+
+.item-reset.button-wrapper {
+	margin: 0 -38px 0 0;
+}
+
+.dimelo-chat-header-title {
+	margin: -20px 0 0 0;
+}
+
+.button-inner-wrapper {
+	padding: 0 !important;
+}
+
+#js-body-arrowUp {
+	transform: scale(0.75);
+}
+
+.inner-button-open-choices {
+	background-size: 70% !important;
+	border-radius: 50% !important;
+}
+
+@media(max-width:768px) {
+	#js-body-arrowUp {
+		display: none !important;
+	}
+}
+
+/*  Styles pour pavés hp  */
+.pushproduct--ems h3 {
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	margin: 5px 0 10px 0;
+}
+
+.pushproduct--ems .row img,
+.pushproduct--ems .row a,
+.pushproduct--ems .row a img {
+	width: 100%;
+}
+
+.pushproduct--ems img,
+.pushproduct--ems a {
+	display: inline-block;
+	float: left;
+}
+
+.pushproduct--ems .spacer {
+	margin-bottom: 15px;
+}
+
+
+/*  Qui sommes nous  */
+
+.cms-quienes-somos .container-qui-sommes-nous {
+	font-family: 'barlow', arial;
+}
+
+.cms-quienes-somos .head-qui-sommes-nous {
+	float: left;
+	width: 100%;
+	background: url('/media/wysiwyg/page/quisommesnous/head-qui-sommes-nous.png') no-repeat top center;
+	padding: 125px 0 0 0;
+}
+
+.cms-quienes-somos .accroche-qui-sommes-nous {
+	color: #ffba00;
+	font-size: 1.35em;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.75em;
+	margin-bottom: 55px;
+}
+
+.cms-quienes-somos .accroche-qui-sommes-nous span::before,
+.cms-quienes-somos .accroche-qui-sommes-nous span::after {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 5px;
+	background: #ffba00;
+}
+
+.cms-quienes-somos span::before {
+	top: -10px;
+}
+
+.cms-quienes-somos .accroche-qui-sommes-nous span {
+	font-size: 1.9em;
+	width: 100%;
+	display: inline-block;
+	font-weight: 800;
+	line-height: 1.15em;
+}
+
+.cms-quienes-somos .accroche-qui-sommes-nous span::after {
+	bottom: 43px;
+	margin: 0 0 0 15px;
+}
+
+.cms-quienes-somos .video-container {
+	position: relative;
+	padding-bottom: 43%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	z-index: 20;
+}
+
+.cms-quienes-somos .video-container iframe {
+	width: 100.25% !important;
+}
+
+.cms-quienes-somos .video-container iframe,
+.cms-quienes-somos .video-container object,
+.cms-quienes-somos .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cms-quienes-somos .text-head-qui-sommes-nous::before {
+	width: 100.05%;
+	height: 100px;
+	background: #ffba00;
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: -60px;
+	left: 0;
+	transform: skew(0deg, -5deg);
+	z-index: -1;
+}
+
+.cms-quienes-somos .text-head-qui-sommes-nous {
+	background: #ffba00;
+	z-index: 10;
+	position: relative;
+	padding: 125px 15px 15px 15px;
+	margin: -100px 0 0 0;
+	font-size: 1.20em;
+	font-weight: 600;
+	text-align: center;
+}
+
+.cms-quienes-somos h2 {
+	font-weight: bold;
+	font-family: 'barlow', arial;
+	text-transform: uppercase;
+}
+
+.cms-quienes-somos a.references-marques {
+	filter: grayscale(1);
+	display: inline-block;
+	width: 100%;
+	transition: 1s all 0s;
+}
+
+.cms-quienes-somos a.references-marques:hover {
+	filter: grayscale(0);
+	transition: 2s all 0s;
+}
+
+.cms-quienes-somos .catalog-category-view .block-ems .portail-brands .brand {
+	height: 4.85em;
+}
+
+.cms-quienes-somos .catalog-category-view .block-ems .portail-brands .brand .brand-accr {
+	bottom: -6em;
+}
+
+/*  On parle de nous  */
+.menu-opdn .bouton {
+	display: block;
+	background: #D4D2D3;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 1.25em;
+	transition: 0.5s all 0s;
+}
+
+.menu-opdn .bouton::before {
+	background: url(/media/wysiwyg/page/onparledenous/opdn-chevron.png);
+	display: inline-block;
+	position: relative;
+	top: 0;
+	content: "";
+	width: 6px;
+	height: 12px;
+	margin: 0 15px 0 -10px;
+	transition: 0.5s all 0s;
+}
+
+.menu-opdn .bouton.actif,
+.menu-opdn .bouton:hover {
+	background-color: #fab231;
+	text-decoration: none;
+	transition: 0.5s all 0s;
+}
+
+.menu-opdn .bouton.actif::before,
+.menu-opdn .bouton:hover::before {
+	transform: rotate(90deg);
+	transition: 0.5s all 0s;
+}
+
+.archivesYear {
+	display: inline-block;
+	background: #F3F3F3;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.archivesYear li {
+	background-color: #F3F3F3;
+	float: left;
+	padding: 10px 15px;
+	margin: 0;
+	transition: 0.5s all 0s;
+}
+
+.archivesYear li a {
+	font-size: 11px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.archivesYear li:hover {
+	background-color: #D4D2D3;
+	transition: 0.5s all 0s;
+}
+
+.archivesYear li a:before {
+	background: url(/media/wysiwyg/page/onparledenous/opdn-fleche.png);
+	display: inline-block;
+	position: relative;
+	top: 0;
+	content: "";
+	width: 11px;
+	height: 10px;
+	margin: 0 10px 0 -5px;
+}
+
+.col-xs-12.article-opdn {
+	margin: 5px 0 15px;
+}
+
+.article-opdn .row {
+	border: 1px solid #eee;
+	margin: 0;
+	padding: 10px 0 !important;
+}
+
+/*.article-opdn + .article-opdn::before {
+	background: #888;
+	width: 80%;
+	height: 1px;
+	content: "";
+	display: inline-block;
+	margin: 0 10%;
+	position: absolute;
+	top: -25px;
+}*/
+.articles-opdn h3 {
+	background-color: #e3e3e3;
+	padding: 8px 10px;
+	font-size: 16px !important;
+}
+
+.article-opdn h4 {
+	margin: 4px 0 10px 0;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #fab231;
+}
+
+.logo-container {
+	text-align: center;
+	margin: 5px 0 20px;
+}
+
+.logo-container img {
+	max-height: 75px;
+}
+
+.article-opdn .lien_pdf {
+	background: #e3e3e3;
+	padding: 5px 8px;
+	border-radius: 2px;
+	margin: 5px 0;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.5s all 0s;
+	float: right;
+}
+
+.article-opdn .lien_pdf:hover {
+	background: #fab231;
+	transition: 0.5s all 0s;
+}
+
+.video-opdn {
+	margin: 30px 0 0 0;
+}
+
+.header-video-opdn {
+	margin: 0 0 10px 0;
+	float: left;
+	width: 100%;
+	height: 35px;
+}
+
+.header-video-opdn img {
+	max-width: 10%;
+	float: left;
+	margin: 0 3% 0 0;
+}
+
+.header-video-opdn h4 {
+	float: left;
+	max-width: 85%;
+	margin: 5px 0 0 0;
+}
+
+.content-video-opdn {
+	float: left;
+	width: 100%;
+	height: 250px;
+}
+
+.content-video-opdn video {
+	width: 100%;
+	height: 250px;
+}
+
+.content-video-opdn iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/* Boutique générique */
+.boxCategory-title {
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Barlow', sans-serif;
+	font-size: 2em;
+	font-weight: 600;
+	border-radius: 3px 3px 0 0;
+	background: #ffb109;
+	background: -moz-linear-gradient(top, #ffb109 0%, #ffc104 100%);
+	background: -webkit-linear-gradient(top, #ffb109 0%, #ffc104 100%);
+	background: linear-gradient(to bottom, #ffb109 0%, #ffc104 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb109', endColorstr='#ffc104', GradientType=0);
+}
+
+.boutique-arrivages .boxCategory-title {
+	background: #000;
+	color: #FFF;
+}
+
+.boutique-arrivages .box-category {
+	border-color: #000000;
+}
+
+.boutique-exclus-web .boxCategory-title {
+	background: #f37721;
+	color: #FFF;
+}
+
+.boutique-exclus-web .box-category {
+	border-color: #f48421;
+}
+
+.boutique-le-moins-cher .boxCategory-title {
+	background: #c7d30d;
+	color: #000;
+}
+
+.boutique-le-moins-cher .box-category {
+	border-color: #c7d30d;
+}
+
+.box-category {
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.boxCategory-seeMore {
+	text-decoration: none;
+	color: #000;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background: #ffba00;
+	padding: 0.2em 0.5em;
+	margin: auto;
+	box-sizing: border-box;
+	font-family: 'Barlow', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+
+.page-main a.link-boutique {
+	text-decoration: none !important;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px 4px 0 4px;
+	text-align: center;
+	width: 100%;
+}
+
+.page-main .entree-boutique {
+	background-color: #fcb60e;
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	margin: -4px -4px 4px;
+}
+
+.page-main .btn-boutique {
+	border-radius: 3px 3px 0 0;
+	background-color: #dedede;
+	padding: 5px 10px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+/*  On parle de nous  */
+.TPBA-link {
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 18px;
+	float: left;
+	background-color: #fab420;
+	color: #000;
+	padding: 10px 25px 8px 25px;
+	text-decoration: none;
+}
+
+/* Page 404 */
+.message_404_logo {
+	margin: 35px 0 0 0;
+}
+
+.message_404 {
+	margin: auto;
+	text-align: center;
+	padding-top: 292px;
+	background: url(../media/wysiwyg/page/404/bg_equipier.jpg) #fff center 0px no-repeat;
+}
+
+.ooops {
+	text-align: center;
+	color: #07809e;
+	font-size: 42px;
+	font-family: Arial;
+	font-weight: bold;
+	margin: 0;
+}
+
+.ooops span {
+	font-size: 48px;
+}
+
+.ooops span+span {
+	font-size: 54px;
+}
+
+.ooops span+span+span {
+	font-size: 62px;
+}
+
+.back_site {
+	margin: 20px auto;
+}
+
+.cms-no-route.page-layout-empty {
+	background: url(../media/wysiwyg/page/404/bg_maintenance.jpg) no-repeat scroll center 0 #fff;
+}
+
+
+/* Page Rappel Produit */
+
+.pdt-rappel-produit a {
+	font-size: 14px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.pdt-rappel-produit {
+	width: 100% font-size: 12px;
+	color: black;
+}
+
+.pdt-rappel-produit img {
+	width: 100%;
+}
+
+.ligne-rappel-produit {
+	margin-bottom: 12px;
+}
+
+.ligne-rappel-produit img {
+	max-width: 320px;
+}
+
+
+/* SAV Autodiag */
+
+.blocsav .fleche {
+	font-weight: bold;
+	font-size: 15px;
+	background: url(../media/wysiwyg/page/fleche_sav2.png) no-repeat left 4px;
+	padding-left: 12px;
+	margin-bottom: 22px;
+}
+
+.content-box-sav {
+	padding: 25px 23px 27px 25px;
+	background: #f3f3f3;
+}
+
+.title-sav {
+	background: #fab420;
+	padding: 5px 15px;
+	font-size: 1.2em;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 42px;
+	line-height: 42px;
+	position: relative;
+	border-bottom: 1px solid #D2D2D2;
+}
+
+.title-sav p {
+	margin-left: 55px;
+	margin-top: -5px;
+}
+
+.title-sav img {
+	float: left;
+	position: absolute;
+	margin-top: -10px;
+}
+
+#autodiagnostic .listeproduit .ligne {
+	margin-bottom: 9px;
+}
+
+#autodiagnostic .listeproduit .ligne,
+#autodiagnostic .button-set {
+	clear: both;
+	overflow: hidden;
+}
+
+#autodiagnostic .listeproduit .bloc {
+	color: #000;
+	display: block;
+	background: #fff;
+	height: 40px;
+	float: left;
+	width: 292px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+#autodiagnostic .listeproduit .bloc:hover {
+	background: #fbbc1e;
+	font-weight: bold;
+}
+
+#autodiagnostic .listeproduit .bloc .txt {
+	display: block;
+	line-height: 40px;
+	float: left;
+}
+
+.picto {
+	display: block;
+	float: left;
+	width: 53px;
+	height: 40px;
+	background: url(../media/wysiwyg/page/sav/sprite_autodiagnostic.png) no-repeat;
+}
+
+.blocsav .button-set .retour a {
+	background: url(../media/wysiwyg/page/fleche_retour_sav.png) no-repeat 12px center #fff;
+	padding-left: 32px;
+	height: 33px;
+	line-height: 33px;
+	width: 61px;
+}
+
+.blocsav .btnsav a {
+	color: #000;
+	padding: 5px 22px 5px 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: url(../media/wysiwyg/page/sav_fleche.png) no-repeat right center #fff;
+	font-family: 'Barlow', Din Cond Bold;
+	font-size: 15px;
+}
+
+.allpdf img {
+	margin-right: 10px;
+}
+
+#autodiagnostic .listeproduit .bloc .image3 {
+	background-position: -53px 0
+}
+
+#autodiagnostic .listeproduit .bloc .gam2 {
+	background-position: 0 -40px
+}
+
+#autodiagnostic .listeproduit .bloc .son1 {
+	background-position: -53px -40px
+}
+
+#autodiagnostic .listeproduit .bloc .gam3 {
+	background-position: -0 -80px
+}
+
+#autodiagnostic .listeproduit .bloc .photo3 {
+	background-position: -53px -80px
+}
+
+#autodiagnostic .listeproduit .bloc .gam4 {
+	background-position: 0 -120px
+}
+
+#autodiagnostic .listeproduit .bloc .photo1 {
+	background-position: -53px -120px
+}
+
+#autodiagnostic .listeproduit .bloc .gam7 {
+	background-position: 0 -160px
+}
+
+#autodiagnostic .listeproduit .bloc .telep2 {
+	background-position: -53px -160px
+}
+
+#autodiagnostic .listeproduit .bloc .pam5 {
+	background-position: 0 -200px
+}
+
+#autodiagnostic .listeproduit .bloc .telep5 {
+	background-position: -53px -200px
+}
+
+#autodiagnostic .listeproduit .bloc .pam3 {
+	background-position: 0 -240px
+}
+
+#autodiagnostic .listeproduit .bloc .info3 {
+	background-position: -53px -240px
+}
+
+#autodiagnostic .listeproduit .bloc .pam4 {
+	background-position: 0 -280px
+}
+
+#autodiagnostic .listeproduit .bloc .info1 {
+	background-position: -53px -280px
+}
+
+#autodiagnostic .listeproduit .bloc .pam6 {
+	background-position: 0 -320px
+}
+
+#autodiagnostic .listeproduit .bloc .info4 {
+	background-position: -53px -320px
+}
+
+#autodiagnostic .listeproduit .bloc .pam7 {
+	background-position: 0 -360px
+}
+
+#autodiagnostic .listeproduit .bloc .info6 {
+	background-position: -53px -360px
+}
+
+#autodiagnostic .listeproduit .bloc .image1 {
+	background-position: 0 -400px
+}
+
+#autodiagnostic .listeproduit .bloc .info11 {
+	background-position: -53px -400px
+}
+
+#autodiagnostic .listeproduit .bloc .image4 {
+	background-position: 0 -440px
+}
+
+#autodiagnostic .listeproduit .bloc .info13 {
+	background-position: -53px -440px
+}
+
+#autodiagnostic .listeproduit .bloc .gam1 {
+	background-position: -0px 0
+}
+
+
+/* Page SAV */
+.container-sav {
+	border: solid 1px #ccc;
+	margin-bottom: 20px;
+}
+
+.title-sav {
+	background: #fab420;
+	padding: 5px 15px;
+	font-size: 1.2em;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.title-sav img {
+	float: left;
+	position: absolute;
+	margin-top: -10px;
+}
+
+.container-sav .title-sav .picto {
+	position: absolute;
+	top: -5px;
+	left: 5px;
+}
+
+.title-sav p {
+	margin: 0px 5px 0 0;
+	padding-left: 55px;
+}
+
+.contenu-sav {
+	padding: 11px 0 8px 0;
+	background: #f3f3f3;
+	position: initial;
+}
+
+.btn-sav {
+	float: right;
+	margin: 7px 15px 0 0;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.btn-sav a {
+	color: #000;
+	padding: 5px 22px 5px 13px;
+	text-decoration: none;
+	background: url(media/wysiwyg/page/sav_fleche.png) no-repeat right center #fff;
+	font-family: 'Barlow', Din Cond Bold;
+}
+
+.btn-sav a:hover {
+	background: url(media/wysiwyg/page/sav_fleche.png) no-repeat right center #fab420;
+}
+
+/* Page Avis Client */
+.avis-client-marge {
+	margin: 0px 15% 2% 15%;
+}
+
+.txt-avis-client {
+	margin: 0px 10% 2% 10%;
+	font-size: 14px;
+}
+
+.img-titre-avis-client {
+	margin: 2% 0 1% 0;
+}
+
+
+/* Page Garantie commerciale */
+
+.title-garantie {
+	width: 100%;
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+
+.title-garantie p {
+	font-size: 36px;
+}
+
+.title-garantie p+p {
+	font-size: 18px;
+	font-family: Arial;
+	text-transform: none
+}
+
+.subtitle-garantie {
+	font-size: 24px;
+	background: #FAB420;
+	padding: 10px 0px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+
+.bloc-garantie {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
+	color: black;
+	font-size: 16px;
+}
+
+.bloc-garantie p+p {
+	color: red;
+	font-size: 13px;
+	text-align: left;
+}
+
+.bloc-garantie span {
+	text-transform: none;
+	font-weight: normal;
+	color: black;
+	font-size: 12px;
+}
+
+.garantie-red {
+	color: red;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.txt-normal-garantie {
+	color: black;
+	font-size: 12px;
+}
+
+.mentions-garantie {
+	font-size: 10px;
+}
+
+.btn-garantie {
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	color: white;
+	background: black;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding: 12px 0px;
+	width: 100%;
+	font-size: 18px;
+	margin: 24px 0px;
+}
+
+.btn-garantie a {
+	color: #FAB420;
+	text-decoration: underline;
+}
+
+
+/* Page Garantie Tranquillité */
+
+.title-garantie {
+	width: 100%;
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.title-garantie p {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.title-garantie p+p {
+	font-size: 18px;
+	font-family: Arial;
+	text-transform: none;
+	line-height: 22px;
+}
+
+.bloc-adhesion-gt {
+	position: relative;
+	margin: 10px 0 30px 0;
+}
+
+.btn-adhesion-gt {
+	position: relative;
+	font-size: 24px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: -20px 25px;
+	padding: 5px 15px;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.subtitle-garantie {
+	font-size: 20px;
+	background: #c3192b;
+	padding: 8px 0px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.little-title-garantie {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.little-title-garantie {
+	font-weight: bold;
+	text-transform: uppercase;
+	clear: both;
+}
+
+.red-gt {
+	color: #c3192b;
+}
+
+.mentions-garantie {
+	color: #999999;
+	font-size: 10px;
+}
+
+.cms-garantie-tranquillite {
+	color: black;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn-store-locator {
+	text-transform: uppercase;
+	color: white;
+	font-size: 24px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-store-locator span {
+	display: block;
+	float: left;
+	width: 35px;
+	height: 40px;
+	background: url(../media/wysiwyg/page/garantie-tranquillite/pin_magasin_GT.jpg) no-repeat;
+	background-size: contain;
+}
+
+.btn-store-locator p {
+	background: black;
+}
+
+/* CGV */
+.cgv_menu ul {
+	padding: 0 !important;
+	margin: 0;
+}
+
+.garantie-box-important {
+	border: 1px solid #000;
+	padding: 8px;
+}
+
+.cgv_menu ul .li_cgv_ancre {
+	border: 1px solid #d1d1d1;
+	padding: 7px;
+	list-style: none !important;
+	transition: 0.5s all 0s;
+}
+
+.cgv_menu ul .li_cgv_ancre:hover {
+	background: #ffc41e;
+	cursor: pointer;
+	transition: 0.5s all 0s;
+}
+
+.cgv_menu ul .li_cgv_ancre a {
+	text-decoration: none !important;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+
+/* Page iPhone Remade in France */
+.iphone-boutique {
+	background-color: #fff;
+	display: inline-block;
+	margin: 20px 0;
+	position: relative;
+}
+
+.iphone-boutique-text {
+	float: left;
+	width: 40%;
+}
+
+.iphone-boutique-text {
+	text-align: center;
+}
+
+.iphone-boutique-text h2,
+.iphone-boutique-text p {
+	text-align: left;
+}
+
+.iphone-boutique h2 {
+	color: #f9cf85;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 47px;
+	margin: 0 0 25px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.iphone-boutique-text>p {
+	color: #333;
+	font-size: 14px;
+	margin: 0 0 20px;
+}
+
+a.more-iphone::before {
+	background: rgba(0, 0, 0, 0) url(" http://www.electrodepot.be/media/landing-iphone/more-link.png") no-repeat scroll 0 0;
+	content: "";
+	display: inline-block;
+	height: 12px;
+	margin: 0 10px 0 0;
+	width: 7px;
+}
+
+a.more-iphone {
+	border: 1px solid #f9cf85;
+	border-radius: 4px;
+	color: #f9cf85;
+	display: inline-block;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 15px 0 0;
+	padding: 6px 12px 8px;
+	text-transform: uppercase;
+	transition: all 0.5s ease 0s;
+}
+
+a.more-iphone:hover::before {
+	background: rgba(0, 0, 0, 0) url(" http://www.electrodepot.be/media/landing-iphone/more-link-white.png") no-repeat scroll 0 0;
+}
+
+a.more-iphone:hover {
+	background-color: #f9cf85;
+	color: #fff;
+	transition: all 0.5s ease 0s;
+}
+
+.iphone-illu {
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 60%;
+}
+
+.illu-iphones {
+	float: none;
+	z-index: 0;
+	position: relative;
+	margin: 25px 0 0;
+}
+
+.plus-iphone-1,
+.plus-iphone-2,
+.plus-iphone-3 {
+	opacity: 0;
+	position: absolute;
+	transition: all 0.5s ease 0.5s;
+	z-index: 10;
+}
+
+.plus-iphone-1 {
+	left: -50px;
+	top: -65px;
+	width: 30%;
+}
+
+.iphone-boutique:hover .plus-iphone-1 {
+	left: 55px;
+	opacity: 1;
+	top: 25px;
+	transition: all 0.5s ease 0s;
+}
+
+.plus-iphone-2 {
+	bottom: -60px;
+	left: -25px;
+	width: 37%;
+}
+
+.iphone-boutique:hover .plus-iphone-2 {
+	bottom: 29px;
+	left: 31px;
+	opacity: 1;
+	transition: all 0.5s ease 0.5s;
+}
+
+.plus-iphone-3 {
+	right: -85px;
+	top: 0;
+	width: 23%;
+}
+
+.iphone-boutique:hover .plus-iphone-3 {
+	opacity: 1;
+	right: 7%;
+	top: 100px;
+	transition: all 0.5s ease 0.25s;
+}
+
+/* Page Tendances High Tech */
+.tendances-hightech p {
+	font-size: 16px;
+}
+
+.tendances-hightech a {
+	padding: 5px 75px;
+	/*background: url(media/wysiwyg/page/fleche-blanche.png) no-repeat right center #000000;*/
+	background: black;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.tendances-hightech-btn {
+	margin-top: 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.img-title-tendances-hightech {
+	margin-top: 20px;
+}
+
+/* Menu gauche Page CMS */
+.notreDevise {
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 24px;
+	background-color: #fab420;
+	text-align: center;
+	padding: 10px 0 2px 0;
+	width: 100%;
+	height: 150px;
+	margin: 20px 0 20px 0;
+}
+
+.totem {
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;
+	width: 100%;
+	background-color: #F5F5F5;
+	font-size: 20px;
+}
+
+#totem_hr {
+	text-align: center;
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 16px;
+	border: 0 none;
+	background-color: #CCC;
+	height: 1px;
+	width: auto;
+	margin-right: 20px;
+}
+
+.final-totem {
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
+	width: 100%;
+	background-color: #F5F5F5;
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+#pictos-totem {
+	display: block;
+	margin: 0 auto;
+	padding-top: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/* Nos marques */
+
+.sous_titre_edito {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+}
+
+.sous_titre_edito strong {
+	font-weight: bold;
+	color: #f00;
+}
+
+.liste-edito li {
+	list-style-image: url(/media/wysiwyg/page/puce_jaune.jpg);
+	margin-bottom: 8px;
+	margin-left: 18px;
+	color: #000;
+	list-style-type: none;
+}
+
+.produits-engagement {
+	padding: 10px 5px;
+	background-color: #fab420;
+	margin-top: 18px;
+}
+
+.produits-engagement-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 31px;
+	font-weight: bold;
+	color: #000;
+}
+
+.produits-engagement-encart {
+	margin-top: 15px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.produits-engagement-subtitle {
+	margin: 0 auto;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	color: #000;
+	font-size: 22px;
+}
+
+.produits-engagement-slogan {
+	margin-top: 15px;
+	padding-left: 20px;
+	background: url(/media/wysiwyg/page/fleche-blanche.png) left center no-repeat;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.produits-engagement-texte {
+	color: #000;
+	margin-top: 10px;
+}
+
+.produit-en-savoir-plus {
+	font-weight: bold;
+	margin: 30px;
+	padding-left: 20px;
+	background: transparent url(/media/wysiwyg/page/fleche-noir.png) left center no-repeat;
+}
+
+.produits-liste-li {
+	color: #000;
+	float: right;
+	position: relative;
+	width: 92%;
+	padding: 16px 5px 10px 34px;
+	margin-bottom: 8px;
+	background: #ebeae9;
+}
+
+.produits-liste-title {
+	font-size: 19px;
+	text-transform: uppercase;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+}
+
+.column-mdd-produits {
+	display: inline-flex;
+	width: 100%;
+	/*display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;*/
+}
+
+.column-mdd-produits>div {
+	/*display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;*/
+	margin: 0 2px 2px 10px;
+	background: #FFF;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.column-mdd-produits div:last-child {
+	margin: 0 0 2px 10px;
+}
+
+.column-mdd-produits p {
+	padding: 10px 0 0 10px;
+	font-size: 11px;
+	line-height: 1.5em;
+}
+
+.column-mdd-produits img {
+	width: 83%;
+	height: auto;
+	max-width: 130px;
+	text-align: center;
+}
+
+/* Nos engagements */
+.article-engagements {
+	margin: 25px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	border-bottom: solid 1px #fab420;
+	color: #000;
+	padding-bottom: 20px;
+}
+
+.yellow-square {
+	height: 37px;
+	width: 37px;
+	background: #FAB420;
+	float: left;
+	text-align: center;
+	font-size: 28px;
+	margin: 0 5px 0 0;
+	border-radius: 10px;
+	line-height: 37px;
+}
+
+.title-engagements {
+	text-transform: uppercase;
+	font-size: 28px;
+	margin: 5px;
+	padding-bottom: 13px;
+}
+
+.subtitle-engagements {
+	font-size: 20px;
+	margin: 5px;
+}
+
+.subtitle-red-engagements {
+	font-size: 23px;
+	color: #F00;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+.choix-marques-left {
+	border-right: 1px solid black;
+	padding-right: 5px;
+	margin-bottom: 20px;
+}
+
+.choix-marques-right {
+	padding-left: 5px;
+}
+
+/*  FAQ */
+
+.cms-page-view .main {
+	font-size: 14px;
+}
+
+.cms-page-view .page-bandeau {
+	margin: 0 2.5% 1.429em 2.5%;
+}
+
+.cms-page-view .page-titre {
+	font-family: 'Barlow', sans-serif;
+	margin: 0;
+	font-size: 1.357145em;
+}
+
+/*.cms-page-view .widget {
+    text-align: right;
+    margin: 0;
+}*/
+
+.cms-page-view .share-block {
+	margin: 0;
+}
+
+.cms-page-view .share {
+	margin: 0;
+	display: inline-block;
+}
+
+.cms-page-view .share.print-icon {
+	display: none;
+}
+
+.cms-page-view .share img {
+	width: 1.250em;
+	display: block;
+}
+
+.cms-page-view .page-banniere {
+	margin-top: 1.071em;
+}
+
+.cms-page-view .page-contenu {
+	margin: 0 2.6% 0 2%;
+}
+
+/*.cms-page-view .sous-titre {
+    font: 1.143em 'Din Cond';
+    text-align: center;
+    line-height: 1.2em;
+}*/
+
+.cms-page-view .sous-titre .sous-titre--important {
+	text-transform: uppercase;
+	display: block;
+	color: #e90000;
+}
+
+.cms-page-view .page-contenu>hr {
+	margin: 0.85em 0 1.9em 0;
+}
+
+.cms-page-view .container-cms {
+	border: 1px solid #cdcdcd;
+	margin-bottom: 1.357em;
+	padding: 0 3% 1em 1.5%;
+}
+
+.cms-page-view .container-titre {
+	font-family: 'Barlow', sans-serif;
+	line-height: 2.143em;
+	font-size: 1em;
+	border-bottom: 1px solid #cdcdcd;
+	margin-bottom: 0.536em;
+}
+
+.cms-page-view .container-titre--important {
+	color: #fe7e01;
+}
+
+.cms-page-view .container-contenu {
+	font-size: 0.857em;
+	line-height: 1.25em;
+}
+
+.cms-page-view .container-texte {
+	margin-bottom: 0.625em;
+}
+
+.cms-page-view .container-bouton {
+	margin-bottom: 0;
+}
+
+.cms-page-view .lien-bouton {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Barlow', sans-serif;
+	border-radius: 0.167em;
+	display: inline-block;
+	background: #ffbe1c;
+	background: -webkit-linear-gradient(#ffbe1c, #ffae18);
+	background: -o-linear-gradient(#ffbe1c, #ffae18);
+	background: -moz-linear-gradient(#ffbe1c, #ffae18);
+	background: linear-gradient(#ffbe1c, #ffae18);
+	padding: 0.25em 2.6%;
+}
+
+
+/* Page MDD */
+.portail-intro {
+	float: right;
+	width: 50%;
+	padding: 0 20px;
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+.intro-image {
+	float: right;
+	width: 50%;
+	padding: 0 20px 0 0;
+	margin: 20px 0;
+}
+
+.portail-intro h1.intro-titre {
+	margin: 0 0 20px 0;
+	font-size: 2.2em;
+}
+
+.portail-intro p {
+	color: #666;
+	font-size: 1.1em;
+}
+
+#js-intro-video-id {
+	position: relative;
+	cursor: pointer;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+#icone-player-img-id {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -18px 0 0 -26px;
+}
+
+/*  Page financement */
+h2.sub-title-financement {
+	border: 1px solid #fdbb31;
+	display: inline-block;
+	padding: 4px 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 15px;
+	margin: 0 16% 15px;
+	clear: both;
+}
+
+.box-financement {
+	border: 1px solid #b6b6b6;
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 0 0 15px 0;
+	font-size: 0.9em;
+}
+
+.cms-page-view .box-financement h3 {
+	background: #FAB420;
+	padding: 8px 14px;
+	font-size: 1.3em !important;
+	margin: -1px -1px 10px -1px !important;
+}
+
+.box-financement-header {
+	background: #8bbd06;
+	margin: 0 0 20px;
+	float: left;
+	width: 100%;
+}
+
+.box-financement-header.presto {
+	background: #176aac;
+}
+
+.box-financement-header img {
+	float: left;
+	margin: 0 20px;
+}
+
+.box-financement-header span {
+	color: #FFF;
+	margin: 5px 0 0 0;
+	float: left;
+}
+
+/* contact */
+.button-autres-questions {
+	background: url('../media/wysiwyg/site/fleche-accordeon.png') no-repeat 96% center #fbbc1e;
+	color: #000;
+	font-family: 'Barlow', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 5px 25px 5px 10px;
+	border-radius: 2px;
+	float: right;
+	display: inline-block;
+	text-decoration: none !important;
+}
+
+.form-contact .form__content {
+	width: 100%;
+	margin: 0;
+}
+
+.form-contact .form__content .fieldset {
+	margin: 0 0 10px 0 !important;
+}
+
+.form-contact .form-contact .fieldset>.field {
+	margin: 0 0 25px 0;
+}
+
+.form-contact .fieldset.informations .field {
+	width: 48%;
+	float: left;
+}
+
+.form-contact .fieldset.informations .field:nth-child(2n+1) {
+	margin: 0 0 29px 4%;
+}
+
+.form-contact .label.numfacture-label {
+	width: 100%;
+	text-align: left !important;
+}
+
+.form-contact .fieldset>.field:not(.choice)>.control {
+	width: 98%;
+}
+
+.form-contact .fieldset>.field.numfacture:not(.choice)>.control {
+	width: 28%;
+}
+
+.form-contact .actions-toolbar .secondary {
+	float: left;
+}
+
+.form-contact .actions-toolbar .secondary .ed-icon-fleche_gauche {
+	margin: 0 5px 0;
+}
+
+.form-contact .actions-toolbar .secondary .ed-icon-fleche_gauche::before {
+	transform: scale(0.75);
+	display: block;
+	padding: 10px 0 0 0;
+	float: left;
+}
+
+.form-contact .actions-toolbar .primary {
+	float: right !important;
+}
+
+.form-contact .actions-toolbar .primary .action {
+	margin: 0 !important;
+}
+
+.form-contact .numfacture:not(.choice)>.label {
+	width: 53%;
+}
+
+.form-contact .fieldset>.field.numfacture:not(.choice)>.control {
+	width: 45%;
+	float: left;
+}
+
+/*  menu accordeon */
+.menu-accordeon .title-accordeon {
+	background: #FAB420;
+	padding: 8px 0 8px 20px;
+	cursor: pointer;
+	font-size: 1.6em !important;
+	margin: 8px 0 !important;
+	font-family: 'Barlow', sans-serif !important;
+	display: inline-block;
+	width: 100%;
+	transition: 0.5s all 0s;
+}
+
+.menu-accordeon .title-accordeon:hover,
+.menu-accordeon .https: //urldefense.proofpoint.com/v2/url?u=http-3A__title-2Daccordeon.active&d=DwIFaQ&c=yQHSJCAKP3nEFlehLGd8PY5PTgIMQtDp09kNa-6uNnE&r=G8hDfJlLajGolalR2PjJEJzkVB2sKFNnsLvnm9eHOfLOg6XSfjGN82mTXLK2CuOp&m=Z7aZovzK9OfXpTB7OKkF0X6Xk_3_C62hwJWCzYea9DI&s=i1upd1Xg6xPIo4MvR0bxq-rAiR4zdKmQUjdaCfexY9Y&e=   {
+background: #f9a719;
+transition: 0.5s all 0s;
+}
+
+.menu-accordeon .subtitle-accordeon {
+	margin: 0 !important;
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	border-bottom: 1px solid #aaa;
+	padding: 10px 4px;
+}
+
+.menu-accordeon .https: //urldefense.proofpoint.com/v2/url?u=http-3A__subtitle-2Daccordeon.active&d=DwIFaQ&c=yQHSJCAKP3nEFlehLGd8PY5PTgIMQtDp09kNa-6uNnE&r=G8hDfJlLajGolalR2PjJEJzkVB2sKFNnsLvnm9eHOfLOg6XSfjGN82mTXLK2CuOp&m=Z7aZovzK9OfXpTB7OKkF0X6Xk_3_C62hwJWCzYea9DI&s=eYFSfgCplIFxUYqjjyUEIhCWvAmjgxO6D0dLUlTyyuI&e= , .menu-accordeon .subtitle-accordeon:hover {
+background: #fafafa;
+}
+
+.menu-accordeon .title-accordeon::before,
+.menu-accordeon .subtitle-accordeon::before {
+	content: '';
+	background: url(../media/wysiwyg/site/fleche-accordeon.png) center bottom no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	transition: 0.5s all 0s;
+	margin: 0 5px 0 0;
+}
+
+.menu-accordeon .title-accordeon:hover::before {
+	margin: 0 0 0 5px !important;
+}
+
+.menu-accordeon .https: //urldefense.proofpoint.com/v2/url?u=http-3A__title-2Daccordeon.active&d=DwIFaQ&c=yQHSJCAKP3nEFlehLGd8PY5PTgIMQtDp09kNa-6uNnE&r=G8hDfJlLajGolalR2PjJEJzkVB2sKFNnsLvnm9eHOfLOg6XSfjGN82mTXLK2CuOp&m=Z7aZovzK9OfXpTB7OKkF0X6Xk_3_C62hwJWCzYea9DI&s=i1upd1Xg6xPIo4MvR0bxq-rAiR4zdKmQUjdaCfexY9Y&e= :hover::before  {
+margin: 0 5px 0 0 !important;
+}
+
+.menu-accordeon .subtitle-accordeon::before {
+	transform: scale(0.75);
+	margin: 0 5px -3px 0;
+}
+
+.menu-accordeon .https: //urldefense.proofpoint.com/v2/url?u=http-3A__title-2Daccordeon.active&d=DwIFaQ&c=yQHSJCAKP3nEFlehLGd8PY5PTgIMQtDp09kNa-6uNnE&r=G8hDfJlLajGolalR2PjJEJzkVB2sKFNnsLvnm9eHOfLOg6XSfjGN82mTXLK2CuOp&m=Z7aZovzK9OfXpTB7OKkF0X6Xk_3_C62hwJWCzYea9DI&s=i1upd1Xg6xPIo4MvR0bxq-rAiR4zdKmQUjdaCfexY9Y&e= ::before {
+transform: rotate(90deg);
+transition: 0.5s all 0s;
+}
+
+.menu-accordeon .https: //urldefense.proofpoint.com/v2/url?u=http-3A__subtitle-2Daccordeon.active&d=DwIFaQ&c=yQHSJCAKP3nEFlehLGd8PY5PTgIMQtDp09kNa-6uNnE&r=G8hDfJlLajGolalR2PjJEJzkVB2sKFNnsLvnm9eHOfLOg6XSfjGN82mTXLK2CuOp&m=Z7aZovzK9OfXpTB7OKkF0X6Xk_3_C62hwJWCzYea9DI&s=eYFSfgCplIFxUYqjjyUEIhCWvAmjgxO6D0dLUlTyyuI&e= ::before {
+transform: rotate(90deg) scale(0.75);
+transition: 0.5s all 0s;
+}
+
+.menu-accordeon .content-accordeon {
+	margin: -9px 0 8px 0;
+	border: 1px solid #EEE;
+	padding: 7px 15px;
+	float: left;
+	width: 100%;
+}
+
+.menu-accordeon .subcontent-accordeon {
+	padding: 5px 10px 10px 22px;
+	border-bottom: 1px solid #EEE;
+}
+
+
+
+/*  Boutiques */
+.category-view .category-image {
+	margin: 0 0 20px 0;
+}
+
+
+/*  NOEL  */
+.category-une-maison-aux-couleurs-de-noel .columns,
+.category-idees-cadeaux .columns {
+	display: none;
+}
+
+@media all and (min-width:768px) {
+
+	.category-une-maison-aux-couleurs-de-noel .category-view,
+	.category-idees-cadeaux .category-view {
+		width: 100%;
+	}
+}
+
+.landing-noel {
+	background: url(https://www.electrodepot.fr/media/wysiwyg/site/landing-page/noel/background-boutique-noel.jpg?1);
+	color: #FFF;
+	padding: 35px 0;
+	background-size: 100%;
+}
+
+.landing-noel .text-noel {
+	font-size: 1.2em;
+	text-shadow: 0 0 8px #000;
+	padding: 10px;
+}
+
+@media all and (min-width:768px) {
+	.entree-noel {
+		opacity: 0.8;
+		transition: 1.5s 0s all;
+	}
+
+	.entree-noel:hover {
+		opacity: 1;
+		transition: 1s 0s all;
+	}
+}
+
+.landing-noel h2 {
+	margin: 0;
+}
+
+.landing-noel h2 a {
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.15em;
+	padding: 3px 0 5px 0;
+	margin: 0;
+	color: #FFF;
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #FFF;
+	color: #001a37;
+}
+
+.landing-noel a img {
+	float: left;
+	width: 100%;
+}
+
+.entree-text-noel h2 a {
+	font-size: 1em;
+	border-radius: 10px;
+	background-color: #FFF;
+	color: #001a37;
+	text-shadow: none;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	opacity: 0.8;
+	transition: 1.5s 0s all;
+}
+
+.entree-text-noel h2 a:hover {
+	opacity: 1;
+	transition: 1s 0s all;
+}
+
+@media all and (min-width:990px) {
+	.col-md-offset-1-5 {
+		margin-left: 12.5%;
+	}
+}
+
+/* Calendrier de l'Avent */
+.day.actif,
+.day.disable {
+	cursor: pointer;
+}
+
+.day.disable img {
+	opacity: 0.75;
+	transition: 0.5s all;
+	z-index: 1;
+	position: relative;
+}
+
+.day.disable img:hover {
+	opacity: 1;
+	transition: 0.5s all;
+}
+
+.day.epuise.disable {
+	position: relative;
+}
+
+.day.epuise.disable img {
+	opacity: 0.75 !important;
+}
+
+.day.epuise.disable::before {
+	content: '';
+	background: url("https://www.electrodepot.fr/media/wysiwyg/site/landing-page/noel//calendrier-avent/Epuise.png") no-repeat;
+	width: calc(100% - 30px);
+	height: 100%;
+	position: absolute;
+	background-size: 100% !important;
+	z-index: 10;
+}
+
+@media screen and (max-width: 1162px) {
+	.day.epuise.disable::before {
+		width: calc(100% - 20px) !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.day.epuise.disable::before {
+		width: calc(100% - 10px) !important;
+	}
+}
+
+/* footer */
+.footer.content {
+	padding: 0;
+	font-size: 0.9em !important;
+	padding: 0;
+	background-color: #f5f5f5;
+	margin: 20px 0 0 0;
+	font-family: 'barlow', arial;
+	float: left;
+}
+
+.footer-baseline {
+	background: #000;
+	color: #FFF;
+	font-family: 'barlow', arial;
+	font-size: 2.8em;
+	text-align: center;
+	padding: 2px 10px;
+	text-transform: uppercase;
+	font-weight: 900;
+	float: left;
+	width: 100%;
+}
+
+.footer-assurance {
+	text-align: center;
+	background: #f5f5f5;
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.assurance-element:first-child {
+	border-left: none;
+}
+
+.assurance-element {
+	float: left;
+	border-left: 1px solid #CCC;
+	box-sizing: border-box;
+	margin: 0 !important;
+	line-height: initial !important;
+	transition: 0.5s all 0s;
+}
+
+.assurance-element:hover {
+	background-color: #e9e9e9;
+	transition: 0.5s all 0s;
+}
+
+.footer .assurance-link {
+	display: block;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.1em;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1.1em 0;
+	font-weight: bold;
+}
+
+/*.footer .assurance-link::before {
+	display: block;
+	margin: 0 0 0.2em 0;
+	text-align: center;
+	content: '';
+	background: url('https://www.electrodepot.fr/media/wysiwyg/footer/reassurance-footer.png');
+	width: 76px;
+	height: 53px;
+	margin: 0 auto 10px auto;
+}*/
+.footer .assurance-link.icon-retrait-livraison::before {
+	background-position-x: -77px;
+}
+
+.footer .assurance-link.icon-service-client::before {
+	background-position-x: -154px;
+}
+
+.footer .assurance-link.icon-sav::before {
+	background-position-x: -231px;
+}
+
+.footer .assurance-link.icon-magasin-depot::before {
+	background-position-x: -317px;
+}
+
+.footer .assurance-link.icon-question-reponse::before {
+	background-position-x: -394px;
+}
+
+.footer-social-box {
+	float: left;
+	width: 100%;
+	background: #c6c6c6;
+}
+
+.footer-social-box>div:first-child::after {
+	content: '';
+	height: calc(100% - 40px);
+	width: 1px;
+	display: inline-block;
+	background: #F5f5f5;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.share-social-box ul,
+.share-social-box h3 {
+	vertical-align: middle;
+}
+
+.footer-social-box h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Barlow', arial;
+	display: inline-block;
+	margin: 20px 15px 0 0;
+}
+
+ul.share-social-list {
+	width: 150px;
+	display: inline-block;
+	margin: 20px 0 0 !important;
+	line-height: 45px;
+}
+
+.share-social-list .icon {
+	margin: 0 15px 0 0;
+	font-size: 2.5em;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+ul.share-social-list .icon a {
+	position: absolute;
+	top: 0;
+	display: block;
+	text-indent: -5000px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 45px;
+	min-width: 30px;
+	color: #666;
+	width: 100%;
+}
+
+.ed-icon-Footer_Facebook::before,
+.ed-icon-Footer_Twitter::before,
+.ed-icon-youtube::before {
+	color: #f5f5f5;
+	transition: 0.5s all 0s;
+}
+
+.ed-icon-Footer_Facebook:hover::before {
+	color: #3c5a98;
+	transition: 0.5s all 0s;
+}
+
+.ed-icon-Footer_Twitter:hover::before {
+	color: #69a8de;
+	transition: 0.5s all 0s;
+}
+
+.ed-icon-youtube:hover::before {
+	color: #cb1f1f;
+	transition: 0.5s all 0s;
+}
+
+.newsletter-inscription .text-center.smaller {
+	font-size: 0.85em;
+}
+
+.newsletter-inscription {
+	padding: 0 15px 5px 15px !important;
+}
+
+.footer-content {
+	float: left;
+	width: 100%;
+	font-family: 'Barlow', arial;
+	color: #333;
+	font-size: 1.2em;
+	line-height: 1em;
+}
+
+.footer-content div+div::before {
+	content: '';
+	min-height: 250px;
+	width: 1px;
+	background: #c6c6c6;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	top: -5px;
+}
+
+.footer-content h3 {
+	font-weight: bold;
+	margin: 0 0 1rem 0;
+}
+
+.footer-content .footer-equipes a {
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+}
+
+.footer-content ul {
+	margin: 0 !important;
+}
+
+.footer-content ul+h3 {
+	margin: 20px 0 1rem 0;
+}
+
+.footer-equipes ul {
+	margin: 0 0 10px 0;
+}
+
+.footer-equipes ul li {
+	margin: 0 8px 5px;
+	position: relative;
+	display: inline-block;
+}
+
+.footer-equipes ul li::after {
+	content: '-';
+	position: absolute;
+	right: -12px;
+}
+
+.footer-equipes ul li:last-child::after {
+	content: '';
+}
+
+.country-choice img {
+	margin: 0 5px -3px 0;
+}
+
+.footer-reward img {
+	width: 90%;
+}
+
+.footer-paiement {
+	float: left;
+	width: 100%;
+}
+
+.footer-paiement h3 {
+	font-weight: bold;
+	font-family: 'Barlow', arial;
+	color: #333;
+}
+
+.footer-paiement img {
+	filter: grayscale(1);
+	transition: 0.5s all 0s;
+}
+
+.footer-paiement a {
+	text-decoration: none;
+}
+
+.footer-paiement:hover img {
+	filter: grayscale(0);
+	transition: 0.5s all 0s;
+}
+
+.legalLine {
+	color: #333333;
+	font-size: 1.2em;
+	clear: both;
+	margin: 0;
+	font-family: 'Barlow', arial;
+}
+
+.legalLine ul {
+	display: inline-block;
+	margin: 0;
+}
+
+.legalLine ul li {
+	display: inline-block;
+}
+
+.legalLine ul li:nth-child(2n+1) {
+	margin: 0 5px;
+}
+
+.legalLine ul li:nth-child(2n)::after {
+	content: ' - ';
+	font-weight: bold;
+}
+
+.legalLine ul li:nth-child(2n)::before {
+	content: ' - ';
+	font-weight: bold;
+}
+
+.legalLine ul li a {
+	text-decoration: none;
+}
+
+.legalLine ul li:nth-child(2n) a {
+	margin: 0 5px;
+}
+
+
+
+/*  footer tunnel  */
+.footer-item {
+	text-align: center;
+	background: #f5f5f5;
+	float: left;
+	margin: 0;
+	border: 1px solid #CCC;
+
+}
+
+.legalLine span.lock::before {
+	content: "\ea07 ";
+	font-family: ed_icons;
+	margin: 0 5px 0 0;
+	font-size: 1.5em;
+	position: relative;
+	left: 0;
+	top: 4px;
+}
+
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+
+.footer-item:hover {
+	background-color: #e9e9e9;
+	transition: 0.5s all 0s;
+}
+
+.footer-item .element-link {
+	display: block;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1em;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.5em 0;
+	margin: 0;
+	text-align: left;
+
+}
+
+.footer-item .tel-number {
+	display: block;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.5em;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.5em 0;
+	margin: 0;
+	text-align: left;
+
+}
+
+
+.footer-item .element-link-title {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Barlow', sans-serif;
+	font-size: calc(1em + 1vw);
+	color: #333;
+	top: 30%;
+	position: relative;
+}
+
+.footer-item .element-link-sub {
+	display: block;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 0.8em;
+	text-transform: none;
+	text-decoration: none;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+	margin: 0;
+	color: #333;
+}
+
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-content: flex-end;
+	align-content: flex-end;
+}
+
+.row-eq-height:before {
+	content: none !important;
+}
+
+
+
+
+
+/*  Media Queries  */
+
+/*
+**    Mobile 480px
+**--------------------------------------
+*/
+@media screen and (max-width: 480px) {
+
+	/* FAQ */
+	.cms-page-view .main {
+		font-size: 21px;
+	}
+
+	.boxCategory-seeMore {
+		font-size: 1.1em;
+	}
+}
+
+/*
+**    Mobile 640px
+**--------------------------------------
+*/
+@media screen and (max-width: 639px) {
+
+	/* Qui sommes nous */
+	.cms-quienes-somos .catalog-category-view .block-ems .portail-brands .brand {
+		height: 10em;
+	}
+
+	/* FAQ */
+	.cms-page-view .main {
+		font-size: 28px;
+	}
+
+	/* contact */
+	.form-contact .fieldset.informations .field {
+		width: 100% !important;
+		margin: 0 0 15px auto !important;
+	}
+
+	.form-contact .fieldset>.field:not(.choice)>.control {
+		width: 100% !important;
+	}
+
+	.form-contact .numfacture:not(.choice)>.label {
+		width: 100%;
+	}
+
+	.form-contact .fieldset>.field.numfacture:not(.choice)>.control {
+		float: none;
+	}
+
+	.boxCategory-title {
+		font-size: 1.4em;
+	}
+
+
+}
+
+/*
+**    Tablet 768px
+**--------------------------------------
+*/
+
+@media screen and (max-width: 767px) {
+	.pushproduct--ems .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	h2.metierSousTitre {
+		margin: 25px 0 !important;
+	}
+
+	.info-complement-menu {
+		display: none;
+	}
+
+	/*Qui sommes nous*/
+	.cms-quienes-somos .catalog-category-view .block-ems .portail-brands .brand {
+		height: unset;
+	}
+
+	/*nos engagements*/
+	.choix-marques-left {
+		border-right: 0px solid black;
+	}
+
+	/* FAQ */
+	.cms-page-view .main {
+		font-size: 14px;
+	}
+
+	.vcenter {
+		display: flex;
+		align-items: center;
+	}
+
+	.cms-page-view .page-bandeau {
+		margin: 0 0 1.429em 0;
+	}
+
+	.cms-page-view .page-titre {
+		font-size: 2.5715em;
+	}
+
+	.cms-page-view .share {
+		vertical-align: middle;
+	}
+
+	.cms-page-view .share.print-icon {
+		display: inline-block;
+	}
+
+	.cms-page-view .share img {
+		width: 1.429em;
+		display: block;
+	}
+
+	.cms-page-view .page-banniere {
+		margin: 1.071em 0 0 0;
+	}
+
+	.cms-page-view .sous-titre {
+		font-size: 1.714em;
+	}
+
+	.cms-page-view .sous-titre .sous-titre--important {
+		display: inline;
+	}
+
+	.cms-page-view .page-contenu>hr {
+		width: 95%;
+		margin: 2.286em auto 3.786em auto;
+	}
+
+	.cms-page-view .container-cms {
+		padding-bottom: 1.4em;
+	}
+
+	.cms-page-view .container-titre {
+		font-size: 2em;
+	}
+
+	.cms-page-view .container-contenu {
+		font-size: 1em;
+	}
+
+	.cms-page-view .container-contenu .vcenter {
+		display: block;
+	}
+
+	.cms-page-view .lien-bouton {
+		padding: 0.464em 2.6%;
+	}
+
+	/* Financement */
+	.cms-page-view .separator {
+		border-right: none;
+	}
+
+	/* SAV Autodiag */
+	.mright-sav {
+		margin-bottom: 10px;
+	}
+
+	/* Footer */
+	.footer-baseline {
+		font-size: 1.55em;
+	}
+
+	.assurance-element:nth-child(2n+1) {
+		border-left: none;
+	}
+
+	.assurance-element {
+		border-bottom: 1px solid #CCC;
+		padding: 0;
+	}
+
+	.footer-social-box>div:first-child::after {
+		width: 80%;
+		left: 10% !important;
+		height: 1px;
+		bottom: -10px !important;
+		top: unset;
+	}
+
+	.footer-content {
+		padding: 0 10px;
+	}
+
+	.footer-equipes ul li:first-child {
+		margin-left: 0px;
+	}
+
+	.footer-content div+div::before {
+		display: none;
+	}
+
+	.footer-reward a {
+		width: 50%;
+	}
+
+	/* Fix contenu trop large pour le site sur mobile */
+	.counter-label {
+		line-height: 1.65em;
+		display: inline-block;
+		margin: 0 0 0 -0.65em;
+	}
+
+	.minicart-wrapper {
+		margin: 1em 2em 0 0 !important;
+	}
+}
+
+/*
+**    Tablet 990px
+**--------------------------------------
+*/
+@media screen and (max-width: 990px) {
+
+	/* Qui sommes nous */
+	.cms-quienes-somos .text-head-qui-sommes-nous::before {
+		top: -165px;
+	}
+
+	.cms-quienes-somos .head-qui-sommes-nous {
+		background-position: 0 top;
+		padding: 575px 0 0;
+	}
+
+	.cms-quienes-somos .accroche-qui-sommes-nous {
+		padding: 0 25px;
+	}
+
+	.cms-quienes-somos .catalog-category-view .block-ems .portail-brands .brand {
+		width: 50%;
+		height: 6.01em;
+		border-bottom: 1px solid #DDD !important;
+	}
+
+	.cms-quienes-somos .catalog-category-view .block-ems .portail-brands .brand:nth-child(2n) {
+		border-right: none !important;
+	}
+
+	/* FAQ */
+	.cms-page-view .container-contenu .vcenter {
+		display: flex;
+	}
+
+	.cms-page-view .container-texte {
+		margin-bottom: 0;
+	}
+
+	.cms-page-view .container-bouton {
+		text-align: right;
+	}
+
+	/* boutique iphone */
+	.iphone-boutique:hover .plus-iphone-1 {
+		left: 5px;
+		top: 40px;
+	}
+
+	.iphone-boutique:hover .plus-iphone-2 {
+		bottom: 28px;
+		left: 3px;
+	}
+
+	.iphone-boutique:hover .plus-iphone-3 {
+		opacity: 1;
+		right: 1%;
+		top: 100px;
+		transition: all 0.5s ease 0.25s;
+	}
+}
+
+/*
+**    Mobile 1180px
+**--------------------------------------
+*/
+@media screen and (min-width: 1180px) {
+	.login-container .block.block-new-customer {
+		background: #f3f3f3 url(/pub/media/wysiwyg/customer/background_new_customer_welcome-es.png) no-repeat top right !important;
+		background-size: contain;
+	}
+
+	.prodItem__warranty {
+		position: sticky;
+		top: 0;
+	}
+}
+
+@media screen and (min-width: 1180px) and (max-width: 767px) {
+	.prodItem__warranty-item {
+		width: 33%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 767px) {}
